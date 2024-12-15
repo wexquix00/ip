@@ -6,4 +6,4 @@ a = "https://api.ipify.org"
 response = requests.get(a)
 s = response.text
 print('\n')
-print(f'\033[96mip adresin: {s}')
+print(f'\033[96mip adres: {s}')
